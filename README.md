@@ -1,24 +1,14 @@
 # npdx
 nodepdx cli awesome
 
-## usage
-
-    var npdx = require('npdx')
-
-## api
-
-
 ## installation
 
-    $ npm install npdx
+    $ npm install -g npdx
 
 
-## running the tests
+## usage
 
-From package root:
-
-    $ npm install
-    $ npm test
+  $ npdx
 
 
 ## contributors
