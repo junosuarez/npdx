@@ -7,8 +7,10 @@
     "nodepdx",
     "portland"
   ],
-  "main": "index.js",
-  "bin": "index.js",
+  "main": "lib/cli.js",
+  "bin": {
+    "npdx": "./bin/npdx"
+    },
   "preferGlobal": true,
   "repository": "git@github.com:jden/npdx.git",
   "license": "MIT",
