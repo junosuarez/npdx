@@ -1,7 +1,11 @@
 {
   "name": "npdx",
   "author": "jden <jason@denizac.org>",
-  "contributors": ["jden <jason@denizac.org>", "dlmanning <dave@shiftsolutions.co>"],
+  "contributors": [
+    "jden <jason@denizac.org>",
+    "dlmanning <dave@shiftsolutions.co>",
+    "phated <blaine@iceddev.com>"
+  ],
   "version": "0.2.1",
   "description": "nodepdx cli awesome",
   "keywords": [
@@ -11,7 +15,7 @@
   "main": "lib/cli.js",
   "bin": {
     "npdx": "./bin/npdx"
-    },
+  },
   "preferGlobal": true,
   "repository": "git@github.com:jden/npdx.git",
   "license": "MIT",
@@ -20,6 +24,7 @@
     "commander": "~1.1.1",
     "opener": "~1.3.0",
     "lanyrd": "~0.2.0",
-    "lodash": "~1.2.1"
+    "lodash": "~1.2.1",
+    "dateformat": "~1.0.6-1.2.3"
   }
 }
